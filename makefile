@@ -5,10 +5,10 @@ CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra
 
 # Source files
-SRCS = main.cpp
+SRCS = main.cpp test.cpp
 
 # Header files
-HEADERS = is_same.hpp
+HEADERS = is_same.hpp enable_if.hpp remove_reference.hpp move.hpp forward.hpp test.hpp
 
 # Executable
 TARGET = main

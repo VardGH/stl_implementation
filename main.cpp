@@ -1,10 +1,11 @@
-#include "is_same.hpp"
-#include <iostream>
+#include "test.hpp"
 
-int main() {
-    std::cout << std::boolalpha;
-    std::cout << "is_same<int, int>: " << is_same<int, int>::value << '\n';
-    std::cout << "is_same<int, float>: " << is_same<int, float>::value << '\n';
+int main()
+{
+    test_is_same();
+    test_enable_if();
+    test_remove_reference();
+    test_move();
 
     return 0;
 }
